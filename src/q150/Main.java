@@ -15,5 +15,16 @@ public class Main {
             System.out.print(arr[j]+" ");
         }
 
+//        강사풀이
+        char[] ar = new char[10];
+        for(int i=0; i<ar.length;i++){
+            ar[i] = sc.next().charAt(0);
+        }
+
+        for(int i=ar.length-1;i>=0;i--){
+            System.out.print(ar[i] + " ");
+        }
+
+
     }
 }
